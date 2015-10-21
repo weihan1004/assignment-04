@@ -1,6 +1,3 @@
-**TODO**
-- Add things from chapter 11 ("More OOP")
-
 ## Linked Lists
 
 ### Requirements
@@ -73,6 +70,9 @@
 
 
 ### Style
+
+- Place your solution in a `solution--YOURNAME` subdirectory, or in the base
+  directory.
 
 - Document and format your code well and consistently.
 - Wrap lines at 79 or 80 columns whenever possible.
