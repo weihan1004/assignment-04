@@ -4,7 +4,7 @@
  * ------------------------------------------------------------------------- */
 
 /**
- * Program to demonstrate the use of our doubly linked list.
+ * Program to demonstrate the use of our singly and doubly linked lists.
  */
 
 #include <chrono>
