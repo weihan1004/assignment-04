@@ -1,0 +1,20 @@
+ /* ----------------------------------------------------------------------------
+   * Copyright &copy; 2015 Ben Blazak <bblazak@fullerton.edu>
+   * Released under the [MIT License] (http://opensource.org/licenses/MIT)
+   * ------------------------------------------------------------------------- */
+  #ifndef LIST_H
+  #define LIST_H
+  // ----------------------------------------------------------------------------
+
+  // ... everything besides the copyright information and file description
+
+  // ----------------------------------------------------------------------------
+  #endif  // LIST_H
+
+  /**
+   * A short program to print "Hello World!" to standard output.
+   */
+struct Node {
+    Node * next;
+    int value;
+};
