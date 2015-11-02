@@ -1,6 +1,3 @@
-**TODO**
-- Add things from chapter 11 ("More OOP")
-
 ## Linked Lists
 
 ### Requirements
@@ -39,12 +36,12 @@
 
 - For a singly linked list, you will probably want a `private`
 
-    ```c++
-    struct Node {
-        Node * next;
-        int value;
-    };
-    ```
+  ```c++
+  struct Node {
+      Node * next;
+      int value;
+  };
+  ```
 
   to serve as your `Node` type, as well as a `Node * mHead;` that always points
   to the first element of the list, and an `int mLength;` that is always set to
@@ -74,6 +71,9 @@
 
 ### Style
 
+- Place your solution in a `solution--YOURNAME` subdirectory, or in the base
+  directory.
+
 - Document and format your code well and consistently.
 - Wrap lines at 79 or 80 columns whenever possible.
 - End your file with a blank line.
@@ -92,31 +92,31 @@
 - Include your copyright and license information at the top of every file,
   followed by a brief description of the file's contents, e.g.
 
-    ```c++
-    /* ----------------------------------------------------------------------------
-     * Copyright &copy; 2015 Ben Blazak <bblazak@fullerton.edu>
-     * Released under the [MIT License] (http://opensource.org/licenses/MIT)
-     * ------------------------------------------------------------------------- */
+  ```c++
+  /* ----------------------------------------------------------------------------
+   * Copyright &copy; 2015 Ben Blazak <bblazak@fullerton.edu>
+   * Released under the [MIT License] (http://opensource.org/licenses/MIT)
+   * ------------------------------------------------------------------------- */
 
-    /**
-     * A short program to print "Hello World!" to standard output.
-     */
-    ```
+  /**
+   * A short program to print "Hello World!" to standard output.
+   */
+  ```
 
 - Use "include guards" in all `.h` files.  Be sure to give the preprocessor
   variable a (unique) name corresponding to the file name.  For example, in
   `list.h`:
 
-    ```c++
-    #ifndef LIST_H
-    #define LIST_H
-    // ----------------------------------------------------------------------------
+  ```c++
+  #ifndef LIST_H
+  #define LIST_H
+  // ----------------------------------------------------------------------------
 
-    // ... everything besides the copyright information and file description
+  // ... everything besides the copyright information and file description
 
-    // ----------------------------------------------------------------------------
-    #endif  // LIST_H
-    ```
+  // ----------------------------------------------------------------------------
+  #endif  // LIST_H
+  ```
 
 
 -------------------------------------------------------------------------------
