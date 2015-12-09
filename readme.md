@@ -23,7 +23,7 @@
           creating a list, filling it with lots of `Node`s, making sure that
           your program's memory usage increases appropriately, deleting the
           list (or letting it go out of scope), and making sure your program's
-          memory usage goes back to about where it was befor the list was
+          memory usage goes back to about where it was before the list was
           created.  In Windows, you may be able to do this using the "Task
           Manager"; on OS X, you can use the "Activity Monitor".
 
